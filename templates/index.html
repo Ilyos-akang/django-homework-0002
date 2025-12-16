@@ -1,0 +1,9 @@
+<h1> Muallif</h1>
+<ul>
+    {% for author in authors  %}
+    <li> {{author.ism}} </li>
+    {% empty %} 
+    <li> MUallif yo'q </li>  
+    {% endfor %}
+
+</ul>
